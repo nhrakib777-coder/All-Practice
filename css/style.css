@@ -86,7 +86,7 @@ header {
 
 /* End of logo */
 /* Start menu - ul & li*/
-#navbar{
+#navbar {
   display: flex;
   width: 60%;
   /* right: 0; */
@@ -100,7 +100,6 @@ header {
   justify-content: space-between;
   /* padding: 10px; */
   margin: 10px;
-  
 }
 
 #navbar ul li {
@@ -124,13 +123,13 @@ header {
 }
 
 .nav_links:hover {
-   background-color: var(--glass_bg3);
+  background-color: var(--glass_bg3);
   transform: scale(1.1);
-  transition: transform  1s ease;
+  transition: transform 1s ease;
 }
 
 /* Login section */
-#login{
+#login {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -138,20 +137,19 @@ header {
   font-size: 20px;
   font-weight: bolder;
   color: white;
-  
 }
 
-#login span{
+#login span {
   background-color: var(--glass_bg1);
   padding: 10px 15px;
   border: var(--border);
   box-shadow: var(--box_shadow);
   border-radius: 10px;
 }
-#login span:hover{
+#login span:hover {
   background-color: var(--glass_bg3);
   transform: scale(1.1);
-  transition: transform  1s ease;
+  transition: transform 1s ease;
 }
 
 /* End of Menu */
@@ -169,9 +167,8 @@ header {
   justify-content: center;
   color: white;
 }
-.card{
+.card {
   background-color: var(--glass_bg1);
   height: 30%;
   /* width: ; */
-
 }
