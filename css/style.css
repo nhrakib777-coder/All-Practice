@@ -121,7 +121,8 @@ header {
   margin: 0 5px;
 }
 
-.nav_links , #hero_btn{
+.nav_links,
+#hero_btn {
   display: inline-block;
   text-decoration: none;
   font-family: 'Lilita One', sans-serif;
@@ -137,7 +138,9 @@ header {
   /* transform: scale(1); */
 }
 
-.nav_links:hover, #hero_btn:hover, .hero-content:hover {
+.nav_links:hover,
+#hero_btn:hover,
+.hero-content:hover {
   background-color: var(--glass_bg3);
   transform: scale(1.1);
   transition: transform 1.2s ease;
@@ -180,7 +183,7 @@ header {
   align-items: center;
   justify-content: left;
   color: white;
-  padding: 0 30px;
+  padding: 50px;
 }
 
 .hero-content {
@@ -191,7 +194,7 @@ header {
   border-radius: 10px;
   /* box-shadow: var(--box_shadow); */
   width: 40vw;
-   transition: transform 1.2s ease, background-color 1.2s ease;
+  transition: transform 1.2s ease, background-color 1.2s ease;
 }
 
 .hero-content span {
@@ -199,21 +202,20 @@ header {
   font-size: 30px;
   font-family: var(--font_family);
   font-weight: 200;
-  
 }
 
 .hero-content h1 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 80px;
   font-weight: 100;
-  
+  letter-spacing: 12px;
 }
-.hero-content p{
+.hero-content p {
   font-family: var(--font_family);
   font-size: 18px;
   text-align: justify;
   margin: 20px 0;
 }
-.hero-content #hero_btn{
-transition: transform 1.2s ease, background-color 1.2s ease;
+.hero-content #hero_btn {
+  transition: transform 1.2s ease, background-color 1.2s ease;
 }
